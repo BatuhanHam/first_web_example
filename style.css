@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header{
+    width: 100%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: #008fff;
+    
+}
+
+.header i{
+   font-size: 40px;
+   color: rgba(253, 248, 248, 0.899);
+   
+}
+
+
+.nav{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    
+}
+
+a:hover{
+    color: white;
+    transition: 0.2s ease;
+}
+
+.second-container{
+    width: 100%;
+    min-height: 100%;
+    padding: 32px;
+    display: flex;
+}
+
+.third-container{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.forth-container{
+    width: 50%;
+    min-height: 100%;
+    padding: 20px;
+
+}
+
+.icon-box{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon-box i{
+    font-size: 70px;
+    
+
+}
+
+.icon{
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.button-box{
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    justify-content:flex-end ;
+    margin-top: 20px;    
+
+}
+
+button{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #008fff;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.927);
+}
+
+.first-text{
+    margin-top: 20px;
+    
+}
